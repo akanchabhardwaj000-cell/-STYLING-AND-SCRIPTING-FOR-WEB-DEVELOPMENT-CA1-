@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CodeSphere Registration</title>
+
+    <link rel="stylesheet" href="CA.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="head">
+
+        <h1>CodeSphere Technologies</h1>
+
+        <p>Student Registration Form</p>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="box">
+
+    <h2>CodeSphere Placement Registration</h2>
+
+    <p>
+        Apply for the Software Engineer and Associate Developer
+        placement opportunity.
+    </p>
+
+
+    <form action="#" method="post">
+
+        <p>
+            <label for="name">Student Name:</label><br>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required
+                   minlength="3"
+                   maxlength="40"
+                   pattern="[A-Za-z ]+">
+        </p>
+
+
+        <p>
+            <label for="reg">Registration Number:</label><br>
+            <input type="text"
+                   id="reg"
+                   name="reg"
+                   required
+                   pattern="[0-9]{8}">
+        </p>
+
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+        </p>
+
+
+        <p>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   required
+                   pattern="[0-9]{10}">
+        </p>
+
+
+        <p>
+            <label for="course">Course:</label><br>
+
+            <select id="course"
+                    name="course"
+                    required>
+
+                <option value="">Select Course</option>
+                <option value="MCA">MCA</option>
+                <option value="BTech">B.Tech</option>
+                <option value="BCA">BCA</option>
+
+            </select>
+        </p>
+
+
+        <p>
+            <label for="cgpa">CGPA:</label><br>
+
+            <input type="number"
+                   id="cgpa"
+                   name="cgpa"
+                   min="0"
+                   max="10"
+                   step="0.01"
+                   required>
+        </p>
+
+
+        <p>
+            <label for="role">Job Role:</label><br>
+
+            <select id="role"
+                    name="role"
+                    required>
+
+                <option value="">Select Role</option>
+
+                <option value="software">
+                    Software Engineer
+                </option>
+
+                <option value="developer">
+                    Associate Developer
+                </option>
+
+            </select>
+        </p>
+
+
+        <p>
+            <label for="resume">Resume:</label><br>
+
+            <input type="file"
+                   id="resume"
+                   name="resume"
+                   accept=".pdf"
+                   required>
+        </p>
+
+
+        <p>
+
+            <input type="submit"
+                   value="Register">
+
+            <input type="reset"
+                   value="Clear">
+
+        </p>
+
+    </form>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <p>CodeSphere Technologies | Campus Placement</p>
+
+</footer>
+
+</body>
+
+</html>
