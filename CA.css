@@ -1,353 +1,240 @@
-body {
-
-    margin: 0;
-
-    font-family: Arial;
-
-    background-color: whitesmoke;
-
-    color: black;
-
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* Header */
+
 header {
-
     background-color: maroon;
-
     color: white;
-
 }
 
 .head {
-
     width: 90%;
-
     margin: auto;
-
     padding: 25px;
-
 }
 
 .head h1 {
-
     margin: 5px 0;
-
 }
 
 .head p {
-
     margin: 5px 0;
-
 }
 
 .year {
-
     float: right;
-
     margin-top: -45px;
-
     border: 1px solid white;
-
     padding: 8px;
-
     text-align: center;
-
 }
 
 .year span {
-
     display: block;
-
     font-size: 20px;
-
 }
 
+
+/* Navigation */
+
 nav {
-
     background-color: darkslategray;
-
     padding: 12px;
-
     text-align: center;
-
 }
 
 nav a {
-
     color: white;
-
     text-decoration: none;
-
     margin: 15px;
-
 }
 
+
+/* Main */
+
 main {
-
     width: 90%;
-
     margin: 20px auto;
-
 }
 
 section {
-
     margin-bottom: 20px;
-
 }
 
 .box {
-
     background-color: white;
-
     padding: 20px;
-
 }
 
 h2 {
-
     color: maroon;
-
     border-bottom: 2px solid maroon;
-
     padding-bottom: 8px;
-
 }
 
 p {
-
     line-height: 1.5;
-
 }
 
 
+/* Table */
+
 table {
-
     width: 100%;
-
     border-collapse: collapse;
-
     background-color: white;
-
 }
 
 caption {
-
     font-size: 18px;
-
     font-weight: bold;
-
     padding: 10px;
-
 }
 
 th {
-
     background-color: maroon;
-
     color: white;
-
     padding: 10px;
-
 }
 
 td {
-
     border: 1px solid gray;
-
     padding: 10px;
-
     text-align: center;
-
 }
 
+
+/* Status */
 
 .status {
-
     color: green;
-
     font-weight: bold;
-
 }
 
 
+/* Buttons */
+
 .btn1 {
-
     color: maroon;
-
     border: 1px solid maroon;
-
     padding: 6px;
-
     text-decoration: none;
-
 }
 
 .btn {
-
-    background-color: maroon;
-
+    background-color: seagreen;
     color: white;
-
     padding: 6px;
-
     text-decoration: none;
-
 }
 
 .bigbtn {
-
     display: inline-block;
-
-    background-color: maroon;
-
+    background-color: seagreen;
     color: white;
-
     padding: 10px;
-
     text-decoration: none;
-
 }
 
 
+/* Company */
+
 .company {
-
     background-color: white;
-
     border: 1px solid gray;
-
     padding: 20px;
-
     margin-bottom: 20px;
-
 }
 
 .top {
-
     border-bottom: 1px solid gray;
-
     padding-bottom: 10px;
-
 }
 
 .logo {
-
     display: inline-block;
-
     background-color: maroon;
-
     color: white;
-
     padding: 15px;
-
     margin-right: 10px;
-
     font-weight: bold;
-
 }
 
 .top h3 {
-
     display: inline;
-
     color: maroon;
-
 }
 
 .top p {
-
     margin-left: 75px;
-
 }
 
 .company h4 {
-
     color: maroon;
-
     margin-bottom: 5px;
-
 }
 
 .company li {
-
     margin-bottom: 6px;
-
 }
 
 .small {
-
     width: 60%;
-
 }
 
 
+/* Form */
+
 form {
-
     width: 70%;
-
     background-color: white;
-
     padding: 20px;
-
     border: 1px solid gray;
-
 }
 
 label {
-
     font-weight: bold;
-
 }
 
 input,
-
 select {
-
     width: 100%;
-
     padding: 8px;
-
     margin-top: 5px;
-
     border: 1px solid gray;
-
 }
 
 input[type="submit"],
-
 input[type="reset"] {
-
     width: auto;
-
-    background-color: maroon;
-
+    background-color: seagreen;
     color: white;
-
     border: none;
-
     padding: 10px 15px;
-
     margin-right: 10px;
-
 }
 
 
+/* Footer */
+
 footer {
-
     background-color: darkslategray;
-
     color: white;
-
     text-align: center;
-
     padding: 20px;
-
 }
 
 footer a {
-
     color: white;
-
     text-decoration: none;
-
 }
